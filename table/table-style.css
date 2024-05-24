@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+body{
+    background-color: rgba(172, 205, 195, 0.517);
+    font-family: "UD デジタル 教科書体 N-B","BIZ UDゴシック", shrif;
+    font-size: 30px;
+}
+
+caption{
+    padding: 15px;
+    font-size: 60px;
+}
+
+table, th, td{
+    border: solid 2.5px rgba(0, 0, 0, 0.758);
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+    white-space: nowrap;
+}
+
+img{
+    width: 300px;
+    height: auto;
+}

@@ -1,0 +1,26 @@
+/* div span class で装飾 */
+
+body {
+    background-color: antiquewhite;
+}
+
+#sixyumi_sukinakoto {
+    color: rgba(241, 153, 59, 0.808);
+}
+
+#kawaiiYatu {
+    color: rgba(216, 68, 150, 0.473);
+}
+
+
+h3 {
+    color: rgba(212, 41, 201, 0.345);
+}
+
+#hiduke {
+    border: 2px dotted rgba(255, 0, 0, 0.581);
+}
+
+div {
+    font-size: 17px;
+}

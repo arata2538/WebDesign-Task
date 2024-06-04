@@ -1,0 +1,22 @@
+#form_body {
+    background-color: rgba(237, 230, 221, 0.471);
+}
+
+fieldset {
+    border-width: 5px;
+    margin-right: 59rem;
+}
+
+dl dt {
+    width: 150px;
+    padding: 10px;
+    float: left;
+}
+
+dl dd {
+    padding: 10px;
+}
+
+a {
+    font-size: 0.7rem;
+}

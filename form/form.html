@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<htmlF lang="en">
+
+    <head>
+        <title>入力フォーム</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="form-style.css">
+    </head>
+
+    <body id="form_body">
+        <form action="#" method="post">
+            <h1>会員登録</h1>
+            <p>以下の情報を入力し、確認ボタンを押してください。</p>
+            <fieldset>
+                <legend>お客様情報</legend>
+                <dl>
+                    <dt>姓：</dt>
+                    <dd><input type="text" name="last_name"></dd>
+                    <dt>名：</dt>
+                    <dd><input type="text" name="first_name"></dd>
+                    <dt>住所：</dt>
+                    <dd><input type="text" name="address"></dd>
+                    <dt>メールアドレス：</dt>
+                    <dd><input type="email" name="email"></dd>
+                    <dt>電話番号：</dt>
+                    <dd><input type="tel" name="tel"></dd>
+                    <dt>生年月日：</dt>
+                    <dd><input type="date" name="birthday" value="1990-01-01"></dd>
+                    <dt>年齢：</dt>
+                    <dd><input type="number" name="age" min="0" max="150"> 歳</dd>
+                    <dt>性別：</dt>
+                </dl>
+                <label><input type="radio" name="gender" value="man">男</label>
+                <label><input type="radio" name="gender" value="=woman">女</label>
+                <label><input type="radio" name="gender" value="other">その他</label>
+            </fieldset><br>
+
+            <fieldset>
+                <legend>パスワード</legend>
+                英数字６文字以上で入力してください。
+                <input type="password" name="password"><br>
+                確認のためもう一度入力してください。
+                <input type="password" name="password_confirm">
+            </fieldset><br>
+
+            <fieldset id="meruaga">
+                <legend>希望メールマガジン</legend>
+                <label><input type="checkbox" name="magazine" value="1"> IT</label>
+                <label><input type="checkbox" name="magazine" value="2"> 営業</label>
+                <label><input type="checkbox" name="magazine" value="3"> 接客</label>
+                <label><input type="checkbox" name="magazine" value="4"> 医療</label>
+            </fieldset><br>
+
+            <fieldset>
+                <legend>利用規約</legend>
+                <a href="ferms.html" target="_blank" rel="noopener">利用規約を確認する</a><br>
+                <label><input type="checkbox" name="terms" value="agree"> 規約に同意する</label>
+            </fieldset><br>
+
+            <button type="reset">クリア</button>
+            <button type="submit">確認</button>
+
+        </form>
+
+    </body>
+
+</htmlF

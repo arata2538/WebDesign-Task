@@ -1,0 +1,36 @@
+div {
+    display: flex;
+}
+
+
+dt {
+    width: 19rem;
+    margin: 2px;
+    margin-top: 5px;
+    background-color: rgb(181, 227, 206);
+    text-align: center;
+    padding: 16px;
+}
+
+dd {
+    width: 25rem;
+    background-color: rgba(82, 243, 168, 0.202);
+    margin: 2px;
+    margin-top: 5px;
+    text-align: left;
+    padding: 5px;
+}
+
+
+span {
+    border: 2.5px dashed red;
+    border-radius: 20%;
+}
+
+a {
+    font-size: 19px;
+}
+
+a#setumei {
+    font-size: 10px;
+}

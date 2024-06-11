@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="register-style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登録フォーム</title>
+</head>
+
+<body>
+    <p>必要事項を入力の上、送信ボタンを押してください。</p>
+    <form action="#" method="get">
+        <dl>
+            <div>
+                <dt><a>ID </a><span>必須</span> <a id="setumei">（メールアドレス）</a></dt>
+                <dd><input type="email" name="id" placeholder="1234@outlook.jp" required></dd><br>
+            </div>
+            <div>
+                <dt><a>パスワード </a><span>必須</span><a id="setumei">（半角英数１２文字以上）</a></dt>
+                <dd><input type="password" name="password" required></dd><br>
+            </div>
+            <div>
+                <dt><a>氏名 </a><span>必須</span></dt></label>
+                <dd>姓：<input type="text" name="last_name" placeholder="例：中野" required><br>
+                    名：<input type="text" name="first_name" placeholder="例：琳" required></dd><br>
+            </div>
+            <div>
+                <dt><a>住所</a></dt>
+                <dd>〒<input type="number" name="post_code" maxlength="7" placeholder="郵便番号"><br>
+                    <input type="text" name="address" placeholder="住所"> <br>
+                    <input type="text" name="address2" placeholder="番地"><br>
+                    <input type="text" name="Address_Line" placeholder="建物名">
+                </dd>
+            </div>
+            <div>
+                <dt><a>携帯電話番号 </a><span>必須</span><a id="setumei">（ハイフンなし）</a></dt>
+                <dd><input type="tel" name="Phone_number" required> </dd>
+            </div>
+            <div>
+                <dt><a>学科・学年 </a><span>必須</span></dt>
+                <dd>学科：<select name="Department" required>
+                        <option value="">選択してください</option>
+                        <option value="A">情報システム科</option>
+                        <option value="B">情報システム工学科</option>
+                        <option value="C">高度情報システム科</option>
+                    </select><br>
+                    学年：<select name="School_year" required>
+                        <option value="">選択してください</option>
+                        <option value="1">1年</option>
+                        <option value="2">2年</option>
+                        <option value="3">3年</option>
+                        <option value="4">4年</option>
+                    </select>
+                </dd>
+            </div>
+            <div>
+                <dt><a>お得な情報・クーポン </a><span>必須</span></dt>
+                <dd>
+                    <label><input type="radio" name="merumaga" value="ok" required>受け取る</label>
+                    <label><input type="radio" name="merumaga" value="no">受け取らない</label>
+                </dd>
+            </div>
+            <div>
+                <dt><a>ご意見・ご要望</a><a id="setumei">（300字以内でご記入ください）</a></dt>
+                <dd><textarea name="opinion_box"></textarea></dd>
+            </div>
+            <button type="submit">送信</button>
+            <button type="reset">リセット</button>
+
+        </dl>
+
+    </form>
+
+
+</body>
+
+</html>

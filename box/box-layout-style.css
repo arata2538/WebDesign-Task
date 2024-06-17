@@ -1,0 +1,62 @@
+body {
+    font-family: UD デジタル 教科書体 NP-B;
+}
+
+.item {
+    width: 500px;
+    height: 600px;
+    padding: 10px;
+    margin: 10px;
+    background-color: antiquewhite;
+    border-radius: 60px;
+    text-align: center;
+}
+
+.upper_box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom_box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+.img-box img {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.img-box {
+    text-align: center;
+    object-fit: contain;
+}
+
+.amazon-link {
+    background-color: rgba(236, 109, 204, 0.205);
+    border-radius: 30px;
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+a {
+    font-size: 21px
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 35px
+}

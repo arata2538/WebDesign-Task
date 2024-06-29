@@ -14,11 +14,13 @@
         <dl>
             <div>
                 <dt><a>ID </a><span>必須</span> <a id="setumei">（メールアドレス）</a></dt>
-                <dd><input type="email" name="id" placeholder="1234@outlook.jp" required></dd><br>
+                <dd><input type="email" name="id" placeholder="1234@outlook.jp" size="30" required></dd><br>
             </div>
             <div>
-                <dt><a>パスワード </a><span>必須</span><a id="setumei">（半角英数１２文字以上）</a></dt>
-                <dd><input type="password" name="password" required></dd><br>
+                <dt><a>パスワード </a><span>必須</span><a id="setumei">（半角英数８文字以上）</a></dt>
+                <dd><input type="password" name="password" size="30" minlength="8" required>
+                    <input type="checkbox" name="check">パスワードを表示する
+                </dd><br>
             </div>
             <div>
                 <dt><a>氏名 </a><span>必須</span></dt></label>
@@ -28,9 +30,9 @@
             <div>
                 <dt><a>住所</a></dt>
                 <dd>〒<input type="number" name="post_code" maxlength="7" placeholder="郵便番号"><br>
-                    <input type="text" name="address" placeholder="住所"> <br>
-                    <input type="text" name="address2" placeholder="番地"><br>
-                    <input type="text" name="Address_Line" placeholder="建物名">
+                    <input type="text" name="address" placeholder="住所" readonly> <br>
+                    <input type="text" name="address2" placeholder="番地" readonly><br>
+                    <input type="text" name="Address_Line" placeholder="建物名" readonly>
                 </dd>
             </div>
             <div>
@@ -63,7 +65,7 @@
             </div>
             <div>
                 <dt><a>ご意見・ご要望</a><a id="setumei">（300字以内でご記入ください）</a></dt>
-                <dd><textarea name="opinion_box"></textarea></dd>
+                <dd><textarea name="opinion_box" maxlength="200" cols="50" rows="10"></textarea></dd>
             </div>
             <button type="submit">送信</button>
             <button type="reset">リセット</button>
